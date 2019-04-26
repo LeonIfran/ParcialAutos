@@ -4,11 +4,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TablaAutosComponent } from './componentes/tabla-autos/tabla-autos.component';
+import { FormularioAutoComponent } from './componentes/formulario-auto/formulario-auto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TablaAutosComponent
+    TablaAutosComponent,
+    FormularioAutoComponent
   ],
   imports: [
     BrowserModule,
