@@ -14,7 +14,9 @@ import { FormularioAutoComponent } from './componentes/formulario-auto/formulari
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

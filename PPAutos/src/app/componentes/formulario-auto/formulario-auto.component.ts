@@ -8,16 +8,11 @@ import { stringify } from '@angular/core/src/render3/util';
   styleUrls: ['./formulario-auto.component.css']
 })
 export class FormularioAutoComponent implements OnInit {
-  formularioAuto: FormGroup;
+  public formularioAuto: FormGroup;
   constructor() { }
 
   ngOnInit() {
     this.formularioAuto = new FormGroup({
-      /*b. modelo,
-      c. marca,
-      d. Precio
-      e. cantidadPuertas:{tres o cinco}
-      f. RutaDeFoto*/
     modelo: new FormControl(),
     marca: new FormControl(),
     precio: new FormControl(),
