@@ -1,0 +1,26 @@
+<table border=2>
+  <thead><tr>
+     <td>id</td>
+     <td>modelo</td>
+     <td>marca</td>
+     <td>Precio</td>
+     <td>cantidadPuertas</td>
+     <td>Foto </td>
+   </tr></thead>
+ <tbody>
+   <ng-container *ngFor="let item of listado" >
+    <td>{{item.id}}</td>
+    <td>{{item.modelo}}</td>
+    <td>{{item.marca}}</td>
+    <td>{{item.precio}}</td>
+    <td>{{item.cantidadPuertas}}</td>
+    <td>
+      <img
+      [src]="item.RutaDeFoto"
+      />
+    </td>
+
+
+   </ng-container></tbody>
+
+<table>
